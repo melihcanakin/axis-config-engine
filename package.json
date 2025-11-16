@@ -1,0 +1,31 @@
+{
+  "name": "axis-config-engine",
+  "version": "1.0.0",
+  "description": "Centralized configuration server for distributed systems",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "distributed-systems",
+    "api"
+  ],
+  "author": "Melihcan Akın <https://www.smartyazilim.com.tr>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melihcanakin/axis-config-engine.git"
+  },
+  "homepage": "https://github.com/melihcanakin/axis-config-engine#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
